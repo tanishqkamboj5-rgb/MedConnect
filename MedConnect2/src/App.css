@@ -1,0 +1,839 @@
+/* NAVBAR */
+
+.navbar {
+  height: 100px;
+  padding: 0 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 330px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: #d9f3ff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #55c7f3;
+}
+
+
+/* HOME HERO */
+
+.home-hero {
+  min-height: 650px;
+
+  padding: 70px 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 60px;
+}
+
+.home-content {
+  width: 55%;
+}
+
+.hero-tag {
+  color: #55c7f3;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 20px;
+}
+
+.home-content h1 {
+  color: white;
+
+  font-size: 68px;
+  line-height: 1.05;
+
+  margin-bottom: 25px;
+}
+
+.home-content h1 span {
+  color: #55c7f3;
+}
+
+.hero-description {
+  max-width: 550px;
+
+  color: #b9cfda;
+
+  font-size: 18px;
+  line-height: 1.7;
+
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+  display: inline-block;
+
+  padding: 13px 25px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+.primary-btn {
+  background: #55c7f3;
+  color: #061c2b;
+}
+
+.secondary-btn {
+  border: 2px solid #55c7f3;
+  color: #55c7f3;
+}
+
+
+/* QUICK CARD */
+
+.home-card {
+  width: 400px;
+
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.07);
+
+  border: 1px solid rgba(85, 199, 243, 0.25);
+
+  border-radius: 20px;
+}
+
+.home-card > p {
+  color: #55c7f3;
+
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.home-card h2 {
+  color: white;
+
+  font-size: 28px;
+
+  margin: 10px 0 25px;
+}
+
+.quick-option {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.quick-option span {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(85, 199, 243, 0.15);
+
+  color: #55c7f3;
+
+  font-size: 22px;
+}
+
+.quick-option strong {
+  display: block;
+
+  color: white;
+
+  font-size: 14px;
+}
+
+.quick-option small {
+  color: #8faab7;
+
+  font-size: 12px;
+}
+
+
+/* COMMON SECTION */
+
+.why-section,
+.page-section {
+  padding: 90px 8%;
+}
+
+.section-heading {
+  text-align: center;
+
+  margin-bottom: 45px;
+}
+
+.section-heading p {
+  color: #55c7f3;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.section-heading h1,
+.section-heading h2 {
+  color: white;
+
+  font-size: 40px;
+
+  margin-bottom: 12px;
+}
+
+.section-heading span {
+  color: #9db8c5;
+
+  font-size: 16px;
+}
+
+
+/* FEATURES */
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 25px;
+}
+
+.feature-card {
+  width: 30%;
+
+  padding: 30px;
+
+  background: rgba(255,255,255,0.06);
+
+  border: 1px solid rgba(85,199,243,0.18);
+
+  border-radius: 16px;
+}
+
+.feature-icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  background: rgba(85,199,243,0.12);
+
+  color: #55c7f3;
+
+  font-size: 22px;
+}
+
+.feature-card h3,
+.nutrition-card h3 {
+  color: white;
+
+  margin-bottom: 12px;
+}
+
+.feature-card p,
+.nutrition-card p {
+  color: #9db8c5;
+
+  line-height: 1.6;
+}
+
+
+/* DOCTORS */
+
+.doctors-container,
+.nutrition-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 25px;
+
+  flex-wrap: wrap;
+}
+
+.doctor-card,
+.nutrition-card {
+  width: 260px;
+
+  padding: 30px;
+
+  text-align: center;
+
+  background: rgba(255,255,255,0.06);
+
+  border: 1px solid rgba(85,199,243,0.18);
+
+  border-radius: 16px;
+}
+
+.doctor-avatar,
+.nutrition-icon {
+  width: 65px;
+  height: 65px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(85,199,243,0.15);
+
+  color: #55c7f3;
+
+  font-size: 28px;
+}
+
+.doctor-card h3 {
+  color: white;
+
+  margin-bottom: 8px;
+}
+
+.doctor-card p {
+  color: #9db8c5;
+
+  margin-bottom: 12px;
+}
+
+.rating {
+  color: #ffd166;
+
+  margin-bottom: 20px;
+}
+
+.doctor-btn {
+  display: block;
+
+  padding: 11px;
+
+  border: 1px solid #55c7f3;
+
+  border-radius: 7px;
+
+  color: #55c7f3;
+
+  text-decoration: none;
+
+  font-size: 13px;
+}
+
+
+/* NUTRITION */
+
+.nutrition-card {
+  width: 280px;
+
+  text-align: left;
+}
+
+.nutrition-icon {
+  margin: 0 0 20px;
+}
+
+
+/* APPOINTMENT */
+
+.appointment-section {
+  min-height: calc(100vh - 100px);
+
+  padding: 70px 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.appointment-box {
+  width: 500px;
+
+  padding: 40px;
+
+  background: rgba(255,255,255,0.06);
+
+  border: 1px solid rgba(85,199,243,0.2);
+
+  border-radius: 18px;
+}
+
+.appointment-box form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.appointment-box label {
+  color: #d9f3ff;
+
+  font-size: 14px;
+
+  margin-top: 10px;
+}
+
+.appointment-box input,
+.appointment-box select {
+  padding: 13px;
+
+  border: 1px solid rgba(85,199,243,0.2);
+
+  border-radius: 7px;
+
+  outline: none;
+
+  background: #102d40;
+
+  color: white;
+
+  font-size: 14px;
+}
+
+.appointment-btn {
+  margin-top: 20px;
+
+  padding: 13px;
+
+  border: none;
+
+  border-radius: 7px;
+
+  background: #55c7f3;
+
+  color: #061c2b;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+/* SUCCESS */
+
+.success-message {
+  text-align: center;
+
+  padding: 40px 10px;
+}
+
+.success-icon {
+  width: 60px;
+  height: 60px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #55c7f3;
+
+  color: #061c2b;
+
+  font-size: 28px;
+}
+
+.success-message h2 {
+  color: white;
+
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  color: #9db8c5;
+
+  line-height: 1.6;
+}
+
+
+/* NUTRITION PAGE */
+
+.nutrition-page {
+  padding: 70px 8% 100px;
+}
+
+
+/* INTRO */
+
+.nutrition-intro {
+  max-width: 750px;
+  margin: 30px auto 70px;
+  text-align: center;
+}
+
+.section-tag {
+  color: #55c7f3;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.nutrition-intro h1 {
+  color: white;
+  font-size: 58px;
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+
+.nutrition-intro h1 span {
+  color: #55c7f3;
+}
+
+.nutrition-description {
+  color: #a8c0cc;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* NUTRITION CARDS */
+
+.nutrition-tips {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+
+  max-width: 1200px;
+
+  margin: 0 auto 100px;
+}
+
+.nutrition-card {
+  padding: 28px;
+
+  min-height: 260px;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  border: 1px solid rgba(85, 199, 243, 0.18);
+
+  border-radius: 18px;
+
+  transition: 0.3s;
+}
+
+.nutrition-card:hover {
+  transform: translateY(-6px);
+
+  border-color: rgba(85, 199, 243, 0.5);
+}
+
+.nutrition-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: rgba(85, 199, 243, 0.12);
+
+  font-size: 27px;
+
+  margin-bottom: 25px;
+}
+
+.nutrition-card h3 {
+  color: white;
+
+  font-size: 20px;
+
+  margin-bottom: 12px;
+}
+
+.nutrition-card p {
+  color: #9db8c5;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* DAILY HABITS */
+
+.daily-section {
+  max-width: 1000px;
+
+  margin: 0 auto 90px;
+}
+
+.daily-heading {
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.daily-heading h2 {
+  color: white;
+
+  font-size: 36px;
+}
+
+
+.habits-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+
+.habit {
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+
+  padding: 22px 25px;
+
+  background: rgba(255, 255, 255, 0.045);
+
+  border: 1px solid rgba(85, 199, 243, 0.12);
+
+  border-radius: 14px;
+}
+
+
+.habit > span {
+  min-width: 45px;
+
+  color: #55c7f3;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+
+.habit h3 {
+  color: white;
+
+  font-size: 17px;
+
+  margin-bottom: 6px;
+}
+
+
+.habit p {
+  color: #91aab6;
+
+  font-size: 14px;
+}
+
+
+/* BOTTOM MESSAGE */
+
+.nutrition-message {
+  max-width: 1000px;
+
+  margin: auto;
+
+  padding: 45px;
+
+  border-radius: 20px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(85, 199, 243, 0.14),
+    rgba(255, 255, 255, 0.04)
+  );
+
+  border: 1px solid rgba(85, 199, 243, 0.2);
+}
+
+
+.nutrition-message h2 {
+  max-width: 500px;
+
+  color: white;
+
+  font-size: 32px;
+
+  line-height: 1.3;
+
+  margin-bottom: 15px;
+}
+
+
+.nutrition-message p:last-child {
+  max-width: 600px;
+
+  color: #9db8c5;
+
+  line-height: 1.7;
+}
+
+
+
+/* ABOUT MEDCONNECT */
+
+.about-medconnect {
+  width: 100%;
+  padding: 90px 8%;
+  text-align: center;
+}
+
+.about-heading {
+  max-width: 700px;
+  margin: 0 auto 45px;
+}
+
+.about-heading p {
+  color: #55c7f3;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.about-heading h2 {
+  color: white;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.about-heading span {
+  color: #9db8c5;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.about-cards {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 25px;
+}
+
+.about-box {
+  flex: 1;
+
+  padding: 30px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(85, 199, 243, 0.18);
+
+  border-radius: 16px;
+
+  text-align: left;
+
+  transition: 0.3s;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+  border-color: rgba(85, 199, 243, 0.5);
+}
+
+.about-box-icon {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  border-radius: 12px;
+
+  background: rgba(85, 199, 243, 0.12);
+
+  color: #55c7f3;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.about-box h3 {
+  color: white;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.about-box p {
+  color: #9db8c5;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* HOME BOTTOM MESSAGE */
+
+.home-message {
+  width: 84%;
+  margin: 20px auto 80px;
+  padding: 45px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background: rgba(85, 199, 243, 0.07);
+
+  border: 1px solid rgba(85, 199, 243, 0.18);
+}
+
+.home-message h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.home-message p {
+  color: #9db8c5;
+  margin-bottom: 25px;
+}
